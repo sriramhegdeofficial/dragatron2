@@ -98,7 +98,7 @@
 body {
 
   width: 100%;
-  max-width: 1800px;
+  max-width: 1600px;
   display: flex;
   flex-direction: column;
   font-family: 'Gilroy', sans-serif;
@@ -163,7 +163,8 @@ header {
 
 .main-content-wrapper {
     width: 100%;
-    
+    position: relative;
+    z-index: 100;
     padding: 0px 10%;
     display: flex;
 }
@@ -203,7 +204,7 @@ header {
     letter-spacing: normal;
     color: white;
     transform: translateX(20%);
-    z-index: 200;
+    
 }
 
 .workout-tag span {
@@ -272,6 +273,7 @@ header {
     border: none;
     margin: 10px;
     font-weight: 800;
+    cursor: pointer;
     
 }
 
@@ -334,7 +336,8 @@ header {
   position: absolute;
   bottom: -50px;
   left: 30%;
-  z-index: -1;
+  
+
 }
 .absolute-parent {
   position: relative;
@@ -348,9 +351,7 @@ header {
   
 }
 
-.z-index-100 {
-  z-index: 100;
-}
+
 
 
 .gradient-circle {
@@ -363,27 +364,33 @@ header {
    background-image: linear-gradient(121deg, #ffab76 22%, #36c1ff 87%);
 }
 
-
+.play-button-wrapper {
+  position: absolute;
+  z-index: 200;
+  right: -17%;
+  top: 12%;
+  display: flex;
+  align-items: center;
+}
 
 .play-button-shine {
-  width: 70px;
+   width: 70px;
   height: 70px;
   background-color: rgba(255, 255, 255, 0.2);
-  position: absolute;
-  right:4.5%;
-  top: 12%;
+  margin-right: 12px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  cursor: pointer;
   
 }
 
-.play-button {
+ .play-button {
   width: 60px;
   height: 60px;
   background: white;
- 
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -391,7 +398,19 @@ header {
 }
 
 
-.play-button-custom {
+ .play-button-custom {
   color: var(--play-button-color);
   
 } 
+
+.watch-intro {
+  
+  font-family: 'Gilroy', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ffffff;
+}
