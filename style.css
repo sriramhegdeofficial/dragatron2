@@ -1,0 +1,397 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-yellow-color: #ffc465;
+    --main-logo-color: #0c141f;
+    --start-now-bg: #20242f;
+    --location-form-color: #f8f8f8;
+    --location-input-placeholder-color: #969da7;
+    --scroll-line-color: #707070;
+    --play-button-color: #ffaa9d;
+    font-size: 16px;
+
+
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold/Gilroy-Bold.eot'); 
+    src: url('./fonts/Gilroy-Bold/Gilroy-Bold.woff2') format('woff2'), 
+         url('./fonts/Gilroy-Bold/Gilroy-Bold.woff') format('woff'), 
+         url('./fonts/Gilroy-Bold/Gilroy-Bold.ttf')  format('truetype'), 
+         url('./fonts/Gilroy-Bold/Gilroy-Bold.svg') format('svg'); 
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot');
+    src: url('fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2') format('woff2'), 
+         url('fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff') format('woff'), 
+         url('fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf')  format('truetype'), 
+         url('fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.svg') format('svg'); 
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Heavy/Gilroy-Heavy.eot'); 
+    src: url('./fonts/Gilroy-Heavy/Gilroy-Heavy.woff') format('woff'), 
+         url('./fonts/Gilroy-Heavy/Gilroy-Heavy.ttf')  format('truetype'); 
+    font-weight: 900;
+         
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Light/Gilroy-Light.eot'); 
+    src: url('./fonts/Gilroy-Light/Gilroy-Light.woff2') format('woff2'), 
+         url('./fonts/Gilroy-Light/Gilroy-Light.woff') format('woff'), 
+         url('./fonts/Gilroy-Light/Gilroy-Light.ttf')  format('truetype'), 
+         url('./fonts/Gilroy-Light/Gilroy-Light.svg') format('svg'); 
+    font-weight: 200;
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Medium/Gilroy-Medium.eot'); 
+    src: url('./fonts/Gilroy-Medium/Gilroy-Medium.woff2') format('woff2'), 
+         url('./fonts/Gilroy-Medium/Gilroy-Medium.woff') format('woff'), 
+         url('./fonts/Gilroy-Medium/Gilroy-Medium.ttf')  format('truetype'), 
+         url('./fonts/Gilroy-Medium/Gilroy-Medium.svg') format('svg');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular/Gilroy-Regular.eot'); 
+    src: url('./fonts/Gilroy-Regular/Gilroy-Regular.woff2') format('woff2'),
+         url('./fonts/Gilroy-Regular/Gilroy-Regular.woff') format('woff'),
+         url('./fonts/Gilroy-Regular/Gilroy-Regular.ttf')  format('truetype'), 
+         url('./fonts/Gilroy-Regular/Gilroy-Regular.svg') format('svg'); 
+    font-weight: 300;
+
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot');
+    src: url('./fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff2') format('woff2'), 
+         url('./fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff') format('woff'), 
+         url('./fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf')  format('truetype'), 
+         url('./fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg') format('svg'); 
+    font-weight: 600;
+  }
+
+  html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gilroy', sans-serif;
+  
+ 
+
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background: var(--main-yellow-color);
+    position: relative;
+    
+    overflow: hidden;
+} 
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 55px;
+}
+
+
+
+.logo {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--main-logo-color);
+
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: var(--main-logo-color);
+  margin-left: 40px;
+}
+
+.start-now-nav-link {
+    background: var(--start-now-bg);
+    color: var(--main-yellow-color);
+    padding: 15px 30px;
+}
+
+.main-content-wrapper {
+    width: 100%;
+    
+    padding: 0px 10%;
+    display: flex;
+}
+
+.content-wrapper {
+    width: 50%;
+    
+}
+
+.best-tag {
+    text-transform: uppercase;
+    font-size: 4rem;
+    background: var(--main-yellow-color);
+    
+}
+
+
+
+.line-div {
+    width: 116px;
+    height: 6px;
+    background: var(--start-now-bg);
+    transform: translateY(52px);
+    
+}
+
+
+.workout-tag {
+    font-size: 6rem;
+    text-transform: uppercase;
+    width: 697px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: white;
+    transform: translateX(20%);
+    z-index: 200;
+}
+
+.workout-tag span {
+    -webkit-text-stroke: 2px var(--start-now-bg);
+    color: transparent;
+}
+
+.location-form {
+    width: 400px;
+    margin-top: 40px;
+    background: var(--location-form-color) ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.location-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.04);
+    display: flex;
+    
+}
+
+.location-icon {
+    
+    color: var(--start-now-bg);
+}
+.location-input {
+    flex: 1 1 auto;
+    margin: 0px 15px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--start-now-bg);
+    font-family: 'Gilroy', sans-serif;
+    background: transparent;
+}
+
+.location-input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--location-input-placeholder-color);
+  }
+
+.location-input:focus {
+    border: none;
+    outline: none;
+    
+    
+}
+
+.location-button {
+    width: 80px;
+    height: 40px;
+    background: var(--start-now-bg);
+    font-family: 'Gilroy', sans-serif;
+    color: var(--main-yellow-color);
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-weight: 800;
+    
+}
+
+.location-note {
+    font-size: 0.85rem;
+    color: var(--main-logo-color);
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.scroll-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  transform: rotate(-90deg) ;
+  left: -3%;
+  bottom: 120px;
+  
+}
+ 
+
+.scroll-line {
+  display: inline-block;
+   width: 125px;
+   height: 2px;
+   background: var(--scroll-line-color);
+   margin-right: 15px;
+}
+
+.scroll-text {
+  
+  opacity: 0.9;
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--main-logo-color);
+}
+
+.dragatron-bg-text {
+  width: 1419.5px;
+  height: 249px;
+  opacity: 0.28;
+  -webkit-text-stroke: 2px #ffffff;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 15rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: transparent;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -50px;
+  left: 30%;
+  z-index: -1;
+}
+.absolute-parent {
+  position: relative;
+}
+.girl-running {
+  width: 100%;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+
+.gradient-circle {
+   position: relative;
+   border-radius: 50%;
+   width:90%; 
+   padding-top:90%;
+   background: white;
+   margin-left: 15%;
+   background-image: linear-gradient(121deg, #ffab76 22%, #36c1ff 87%);
+}
+
+
+
+.play-button-shine {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right:4.5%;
+  top: 12%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  background: white;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.play-button-custom {
+  color: var(--play-button-color);
+  
+} 
