@@ -12,6 +12,7 @@
     --location-input-placeholder-color: #969da7;
     --scroll-line-color: #707070;
     --play-button-color: #ffaa9d;
+    --training-type-name-color: #e4eef5;
     font-size: 16px;
 
 
@@ -98,7 +99,7 @@
 body {
 
   width: 100%;
-  max-width: 1600px;
+  max-width: 1700px;
   display: flex;
   flex-direction: column;
   font-family: 'Gilroy', sans-serif;
@@ -125,6 +126,12 @@ header {
     padding: 0px 55px;
 }
 
+.logo-hamburger-menu-wrapper {
+  width: 235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 .logo {
@@ -141,6 +148,11 @@ header {
 
 }
 
+.menu-icon {
+  font-size: 2rem;
+  color: var(--main-logo-color);
+}
+
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -153,8 +165,12 @@ header {
   letter-spacing: normal;
   color: var(--main-logo-color);
   margin-left: 40px;
+  transition: all 0.1s ease-in-out;
 }
 
+.nav-link:hover {
+  opacity: 0.8;
+}
 .start-now-nav-link {
     background: var(--start-now-bg);
     color: var(--main-yellow-color);
@@ -274,7 +290,11 @@ header {
     margin: 10px;
     font-weight: 800;
     cursor: pointer;
-    
+    transition: all 0.1s ease-in-out;
+}
+
+.location-button:hover {
+  opacity: 0.95;
 }
 
 .location-note {
@@ -348,7 +368,7 @@ header {
   left: 55%;
   top: 50%;
   transform: translate(-50%, -50%);
-  
+  object-fit: contain;
 }
 
 
@@ -365,15 +385,16 @@ header {
 }
 
 .play-button-wrapper {
-  position: absolute;
-  z-index: 200;
-  right: -17%;
-  top: 12%;
+  
   display: flex;
   align-items: center;
 }
 
 .play-button-shine {
+  position: absolute;
+  z-index: 200;
+  right: 2%;
+  top: 12%;
    width: 70px;
   height: 70px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -413,4 +434,376 @@ header {
   line-height: 1.38;
   letter-spacing: normal;
   color: #ffffff;
+  position: absolute;
+  z-index: 200;
+  right: -15%;
+  top: 16.5%;
+}
+
+.section-2 {
+  width: 100%;
+  
+  background: var(--start-now-bg);
+  padding: 5% 10%;
+  position: relative;
+}
+
+.types-of {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--main-yellow-color);
+  margin-bottom: 15px;
+}
+
+.training-session {
+  
+  font-family: 'Gilroy', sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 75px;
+}
+
+.focus {
+  opacity: 0.05;
+  -webkit-text-stroke: 2px #ffffff;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 12rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: transparent;
+  position: absolute;
+  left: 25%;
+  top: 100px;
+  text-transform: capitalize;
+}
+
+.training-types-wrapper {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+
+}
+
+.training-type-background {
+  width: 28%;
+  height: 90%;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+
+.training-type-name {
+  width: 70px;
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  color: var(--main-logo-color);
+  text-transform: uppercase;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  
+}
+
+.training-type-img {
+  width: 100%;
+  object-fit: contain;
+ 
+  
+  
+}
+
+.move-down {
+  transform: translateY(125px);
+}
+
+.recovery {
+  
+  opacity: 0.06;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 7rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  left: 15%;
+  bottom: 20px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1320px) { 
+  .best-tag {
+    font-size: 3.2rem;
+  }
+
+  .workout-tag {
+    font-size: 5rem;
+    width: 550px;
+  }
+
+  
+  .line-div {
+    width: 85px;
+  }
+
+  .watch-intro {
+  
+    
+    font-size: 1rem;
+    right: -18%;
+    
+  }
+
+
+}
+
+@media only screen and (max-width: 1150px) {  
+
+  .main-content-wrapper {
+    
+    padding: 0px 5%;
+   
+}
+  .play-button-shine {
+    
+    right: 0;
+    top: 12%;
+    
+    
+  }
+
+  .watch-intro {
+  
+    
+    font-size: 1rem;
+    right: -20%;
+    top: 17.5%;
+    
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1150px) {  
+
+  .play-button-shine {
+    
+    right: -2%;
+    top: 12%;
+    
+    
+  }
+
+  .watch-intro {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 980px) {
+  .section-1 {
+    height: auto;
+  }
+  nav {
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .logo-hamburger-menu-wrapper {
+    width: 180px;
+
+  }
+
+  .main-content-wrapper {
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    
+   
+}
+
+
+
+.content-wrapper {
+  width: 80%;
+  
+  margin-bottom: 40px;
+}
+
+.gradient-circle {
+  width:100%; 
+  padding-top:100%;
+  margin-left: 0;
+}
+
+.watch-intro {
+  display: inline-block;
+  right: -12%;
+  top: 15.5%;
+}
+
+.play-button-shine {
+    
+  right: 5%;
+  top: 12%;
+  
+  
+}
+
+
+}
+
+@media only screen and (max-width: 750px) {
+  .play-button-shine {
+    right: 3%;
+  }
+
+  .watch-intro {
+    
+    right: -15%;
+    
+  }
+
+  .scroll-wrapper {
+    
+    left: -9%;
+    
+    
+  }
+}
+
+@media only screen and (max-width: 630px) { 
+  .watch-intro {
+    
+   display: none;
+    
+  }
+
+  .play-button-shine {
+    right: 0%;
+  }
+
+  .best-tag {
+    font-size: 2.2rem;
+  }
+
+  .workout-tag {
+    font-size: 3.8rem;
+    width: 480px;
+  }
+
+  
+  .line-div {
+    width: 65px;
+  }
+
+ 
+
+
+}
+
+
+@media only screen and (max-width: 510px) { 
+  .best-tag {
+    font-size: 1.6rem;
+  }
+
+  .workout-tag {
+    font-size: 2.8rem;
+    width: 350px;
+  }
+
+  
+  .line-div {
+    top: 5%;
+    width: 50px;
+  } 
+
+  .play-button-shine {
+    right: -3%;
+  }
+
+  .main-content-wrapper {
+    
+    padding: 0px 2%;
+   
+}
+
+  .location-form {
+    width: 100%;
+   
+    
+}
+
+.scroll-wrapper {
+    
+  left: -15%;
+  
+  
+}
+
+}
+
+
+@media only screen and (max-width: 400px) {  
+
+  .play-button-shine {
+    right: -5%;
+  }
+
+  .main-content-wrapper {
+    
+    padding: 0;
+   
+}
+
+.content-wrapper {
+  width: 88%;
+  
+  margin-bottom: 40px;
+}
+
+
 }
