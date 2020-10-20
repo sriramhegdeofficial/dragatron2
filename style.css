@@ -268,7 +268,7 @@ header {
 }
 
 .location-form {
-    width: 400px;
+    max-width: 510px;
     margin-top: 40px;
     background: var(--location-form-color) ;
     display: flex;
@@ -292,7 +292,7 @@ header {
     color: var(--start-now-bg);
 }
 .location-input {
-    flex: 1 1 auto;
+    min-width: 0;
     margin: 0px 15px;
     border: none;
     outline: none;
@@ -318,8 +318,7 @@ header {
 }
 
 .location-button {
-    width: 80px;
-    height: 40px;
+    min-width: 103px;
     background: var(--start-now-bg);
     font-family: 'Gilroy', sans-serif;
     color: var(--main-yellow-color);
