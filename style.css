@@ -162,6 +162,12 @@ header {
     z-index: 200;
 }
 
+.navbar-default {
+  min-width: 200px;
+  
+
+}
+
 .logo-hamburger-menu-wrapper {
   width: 235px;
   display: flex;
