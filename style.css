@@ -1190,11 +1190,16 @@ footer {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 20px;
+  
 }
 
-.footer-content-wrapper {
-  
+.social-share-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  width: 60%;
+  max-width: 300px;
 }
 @media only screen and (max-width: 1350px) { 
   .best-tag {
