@@ -105,7 +105,7 @@
 body {
 
   width: 100%;
-  max-width: 1700px;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   font-family: 'Gilroy', sans-serif;
@@ -126,6 +126,7 @@ section {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    
 } 
 
 header {
@@ -400,6 +401,8 @@ header {
 .absolute-parent {
   position: relative;
 }
+
+
 .girl-running {
   width: 140%;
   position: absolute;
@@ -414,13 +417,15 @@ header {
 
 
 .gradient-circle {
-   position: relative;
+ 
+   
    border-radius: 50%;
    width:90%; 
    padding-top:90%;
    background: white;
    margin-left: 15%;
    background-image: linear-gradient(121deg, #ffab76 22%, #36c1ff 87%);
+   position: relative;
 }
 
 .play-button-wrapper {
@@ -441,7 +446,9 @@ header {
   justify-content: center;
   align-items: center; 
   cursor: pointer;
-  
+  position: absolute;
+  top: 8%;
+  right: 5%;
 }
 
  .play-button {
@@ -461,18 +468,10 @@ header {
   
 } 
 
-.watch-intro-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  top: 10%;
-  right: -13.5%;
 
-}
 
 .watch-intro {
-  
+  position: absolute;
   font-family: 'Gilroy', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
@@ -481,8 +480,10 @@ header {
   line-height: 1.38;
   letter-spacing: normal;
   color: #ffffff;
-  
+  top: 67px;
+  right: -13%;
   text-transform: uppercase;
+  
 }
 
 .section-2 {
@@ -1179,7 +1180,7 @@ footer {
 .footer-content-wrapper {
   
 }
-@media only screen and (max-width: 1320px) { 
+@media only screen and (max-width: 1350px) { 
   .best-tag {
     font-size: 3.2rem;
   }
@@ -1195,12 +1196,15 @@ footer {
   }
 
   .watch-intro {
-  
     
-    font-size: 1rem;
-    right: -18%;
+    top: 60px;
+    right: -13%;
+    
     
   }
+  
+
+  
 
 
 }
@@ -1219,15 +1223,9 @@ footer {
     
     
   }
-
-  .watch-intro {
   
-    
-    font-size: 1rem;
-    right: -20%;
-    top: 17.5%;
-    
-  }
+
+  
 
 
 
@@ -1237,7 +1235,7 @@ footer {
 
   .play-button-shine {
     
-    right: -2%;
+    right: 0;
     top: 12%;
     
     
@@ -1298,9 +1296,11 @@ footer {
   
 }
 
+
+
 .watch-intro {
   display: inline-block;
-  right: -12%;
+  right: -8%;
   top: 15.5%;
 }
 
@@ -1353,7 +1353,7 @@ footer {
   }
 
   .watch-intro {
-    
+    top: 88px;
     right: -15%;
     
   }
