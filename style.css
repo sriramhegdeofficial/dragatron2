@@ -558,7 +558,12 @@ header {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  box-shadow: -15px 20px rgba(255, 196, 101, 0);
+  transition: all 0.3s ease-in-out;
+}
 
+.training-type-background:hover {
+  box-shadow: -15px 20px rgba(255, 196, 101, 1);
 }
 
 .training-type-name {
@@ -581,10 +586,10 @@ header {
 .training-type-img {
   width: 100%;
   object-fit: contain;
- 
   
   
 }
+
 
 .move-down {
   transform: translateY(125px);
@@ -1093,8 +1098,11 @@ header {
   font-weight: 600;
 }
 
+.subscribe-to-newsletter {
+  width: 100%;
+}
 .subscribe-to-newsletter-title {
-  width: 200px;
+  width: 100%;
   font-size: 1.1rem;
   color: white;
   text-transform: uppercase;
@@ -1103,10 +1111,11 @@ header {
 }
 
 .newsletter-input-form {
+  max-width: 230px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 14px;
+  padding: 8px 5px;
   border: 1px solid white;
 }
 
@@ -1119,6 +1128,9 @@ header {
   outline: none;
   background: transparent;
   color: white;
+  width: 80%;
+  font-size: 0.7rem;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .subscribe-input:focus {
@@ -1128,6 +1140,8 @@ header {
 
 .subscribe-input::placeholder {
   color: white;
+  font-size: 0.7rem;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .bottom-links-sub-wrapper {
@@ -1645,6 +1659,15 @@ footer {
 .clients-say-text {
     
   font-size: 1.9rem;
+  
+}
+
+.subscribe-input {
+  font-size: 0.5rem;
+}
+.subscribe-input::placeholder {
+  
+  font-size: 0.5rem;
   
 }
 
