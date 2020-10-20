@@ -192,7 +192,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -231,7 +231,7 @@ header {
 
 .best-tag {
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 4.75rem;
     background: var(--main-yellow-color);
     
 }
@@ -248,7 +248,7 @@ header {
 
 
 .workout-tag {
-    font-size: 6rem;
+    font-size: 8.4375rem;
     text-transform: uppercase;
     width: 697px;
     font-family: 'Gilroy', sans-serif;
@@ -296,7 +296,7 @@ header {
     margin: 0px 15px;
     border: none;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.1875rem;
     font-weight: bold;
     color: var(--start-now-bg);
     font-family: 'Gilroy', sans-serif;
@@ -305,7 +305,7 @@ header {
 
 .location-input::placeholder {
     font-family: 'Gilroy', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1875rem;
     font-weight: bold;
     color: var(--location-input-placeholder-color);
   }
@@ -337,7 +337,7 @@ header {
 }
 
 .location-note {
-    font-size: 0.85rem;
+    font-size: 1.1875rem;
     color: var(--main-logo-color);
     margin-top: 25px;
     opacity: 0.7;
@@ -367,7 +367,7 @@ header {
 .scroll-text {
   
   opacity: 0.9;
-  font-size: 1.1rem;
+  font-size: 1.1875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -383,7 +383,7 @@ header {
   opacity: 0.28;
   -webkit-text-stroke: 2px #ffffff;
   font-family: 'Gilroy', sans-serif;
-  font-size: 15rem;
+  font-size: 15.5625rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -473,15 +473,15 @@ header {
 .watch-intro {
   position: absolute;
   font-family: 'Gilroy', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.38;
   letter-spacing: normal;
   color: #ffffff;
-  top: 67px;
-  right: -13%;
+  top: 64px;
+  right: -17%;
   text-transform: uppercase;
   
 }
@@ -495,7 +495,7 @@ header {
 }
 
 .types-of {
-  font-size: 1.4rem;
+  font-size: 2.375rem;
   text-transform: uppercase;
   font-family: 'Gilroy', sans-serif;
   font-weight: bold;
@@ -511,7 +511,7 @@ header {
 .training-session {
   
   font-family: 'Gilroy', sans-serif;
-  font-size: 3.2rem;
+  font-size: 5.125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -526,7 +526,7 @@ header {
   opacity: 0.05;
   -webkit-text-stroke: 2px #ffffff;
   font-family: 'Gilroy', sans-serif;
-  font-size: 12rem;
+  font-size: 14.0625rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -574,7 +574,7 @@ header {
   color: var(--main-logo-color);
   text-transform: uppercase;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.625rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -599,7 +599,7 @@ header {
   
   opacity: 0.06;
   font-family: 'Gilroy', sans-serif;
-  font-size: 7rem;
+  font-size: 9.875rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -619,7 +619,7 @@ header {
   opacity: 0.05;
   -webkit-text-stroke: 2px #ffffff;
   font-family: 'Gilroy', sans-serif;
-  font-size: 7rem;
+  font-size: 10.625rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -640,7 +640,7 @@ header {
 
 .explore-text {
   font-family: 'Gilroy', sans-serif;
-  font-size: 2.6rem;
+  font-size: 3rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -661,7 +661,7 @@ header {
 .more-text {
   -webkit-text-stroke: 2px #ffffff;
   font-family: 'Gilroy', sans-serif;
-  font-size: 4.6rem;
+  font-size: 5.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -679,7 +679,7 @@ header {
 
 .section-3 {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--section-3-background);
   padding: 5% 10%;
   position: relative;
@@ -692,7 +692,7 @@ header {
   opacity: 0.29;
   -webkit-text-stroke: 2px #aec0dd;
   font-family: 'Gilroy', sans-serif;
-  font-size: 4.8rem;
+  font-size: 12.3125rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -707,7 +707,7 @@ header {
   
   opacity: 0.6;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.4rem;
+  font-size: 2.375rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -722,7 +722,7 @@ header {
 
 .get-started-text {
   font-family: 'Gilroy', sans-serif;
-  font-size: 3.2rem;
+  font-size: 5.125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -758,7 +758,7 @@ header {
 .avail-session-index {
   opacity: 0.6;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.2rem;
+  font-size: 2.375rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -770,7 +770,7 @@ header {
 
 .avail-session-text {
   font-family: 'Gilroy', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -814,7 +814,7 @@ header {
 .start-working-out-text {
   width: 90%;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -840,7 +840,7 @@ header {
 .avail-session-know-more {
   color: white;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -853,7 +853,7 @@ header {
 
 .section-4 {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--main-yellow-color);
   display: flex;
   
@@ -877,7 +877,7 @@ header {
 
 .what-our-text {
   font-family: 'Gilroy', sans-serif;
-  font-size: 2rem;
+  font-size: 2.375rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -891,7 +891,7 @@ header {
 .clients-say-text {
   text-transform: uppercase;
   font-family: 'Gilroy', sans-serif;
-  font-size: 3.7rem;
+  font-size: 4.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -905,7 +905,7 @@ header {
 .clients-review {
   width: 95%;
   font-family: Gilroy;
-  font-size: 2rem;
+  font-size: 3.0625rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -919,7 +919,7 @@ header {
 .clients-name {
   
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -934,7 +934,7 @@ header {
 .clients-occupation {
 
   font-family: 'Gilroy', sans-serif;
-  font-size: 1rem;
+  font-size: 1.625rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -1010,7 +1010,7 @@ header {
   display: flex;
   align-items: center;
   font-family: 'Gilroy';
-  font-size: 2.2rem;
+  font-size: 2.625rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -1031,7 +1031,7 @@ header {
 .get-in-touch-text {
   -webkit-text-stroke: 2px #ffffff;
   font-family: 'Gilroy', sans-serif;
-  font-size: 4.3rem;
+  font-size: 6.125rem;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
@@ -1053,7 +1053,7 @@ header {
 .logo-D {
   
     font-family: 'Gilroy', sans-serif;
-    font-size: 3rem;
+    font-size: 4.125rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -1077,7 +1077,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.125rem;
   font-weight: 700;
 }
 
@@ -1095,7 +1095,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.625rem;
   font-weight: 600;
 }
 
@@ -1104,7 +1104,7 @@ header {
 }
 .subscribe-to-newsletter-title {
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1.375rem;
   color: white;
   text-transform: uppercase;
   line-height: 30px;
@@ -1112,11 +1112,11 @@ header {
 }
 
 .newsletter-input-form {
-  max-width: 230px;
+  max-width: 260px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 5px;
+  padding: 14px 10px;
   border: 1px solid white;
 }
 
@@ -1130,7 +1130,7 @@ header {
   background: transparent;
   color: white;
   width: 80%;
-  font-size: 0.7rem;
+  font-size: 1.25rem;
   font-family: 'Gilroy', sans-serif;
 }
 
@@ -1141,7 +1141,7 @@ header {
 
 .subscribe-input::placeholder {
   color: white;
-  font-size: 0.7rem;
+  font-size: 1.25rem;
   font-family: 'Gilroy', sans-serif;
 }
 
@@ -1166,7 +1166,7 @@ footer {
 .copyrights-text {
  
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -1180,7 +1180,7 @@ footer {
 .social-link {
   opacity: 0.62;
   font-family: 'Gilroy', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -1202,6 +1202,9 @@ footer {
   max-width: 300px;
 }
 @media only screen and (max-width: 1350px) { 
+  .section-3 {
+    min-height: 0;
+  }
   .best-tag {
     font-size: 3.2rem;
   }
