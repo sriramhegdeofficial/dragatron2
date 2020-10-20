@@ -184,7 +184,7 @@ header {
 }
 
 .hamburger-line {
-  width: 35px;
+  width: 100%;
   display: block;
   height: 4px;
   background: var(--main-logo-color);
@@ -197,14 +197,15 @@ header {
 
 .hamburger-menu-wrapper {
   cursor: pointer;
+  width: 35px;
 }
 
 .custom-hamburger-line-width-1 {
-  width: 20px;
+  width: 45%;
 }
 
 .custom-hamburger-line-width-2 {
-  width: 30px;
+  width: 70%;
 }
 
 
@@ -1302,6 +1303,11 @@ footer {
   .section-5 {
     padding-bottom: 100px;
   }
+
+  header {
+    height: 100px;
+    padding: 0px 35px;
+  }
   
 
   .logo {
@@ -1327,6 +1333,7 @@ footer {
 
 .nav-link-mobile {
   display: inline-block;
+  margin-left: 10px;
 }
 
 
@@ -1623,6 +1630,25 @@ footer {
 
 
 @media only screen and (max-width: 510px) { 
+  header {
+    padding: 0px 20px;
+  }
+
+  .hamburger-line {
+    
+    height: 2px;
+  
+    
+  }
+
+  .hamburger-menu-wrapper {
+    cursor: pointer;
+    width: 28px;
+  }
+
+  .hamburger-line-margin {
+    margin: 4px 0px;
+  }
   .best-tag {
     font-size: 1.6rem;
   }
