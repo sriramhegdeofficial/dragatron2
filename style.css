@@ -986,7 +986,7 @@ header {
   position: relative;
   height: 100vh;
   border: none;
-  padding: 5px;
+  
 }
 
 .spiral-sphere-img {
@@ -1160,6 +1160,7 @@ footer {
   align-items: center;
   background: var(--start-now-bg);
   transform: translateY(-1px);
+  padding: 15px;
 }
 
 .copyrights-text {
@@ -1627,6 +1628,18 @@ footer {
   
 }
 
+footer {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+ 
+ .copyrights-text {
+   font-size: 0.6rem;
+   margin-top: 12px;
+ }
+
 }
 
 
@@ -1671,5 +1684,7 @@ footer {
   font-size: 0.5rem;
   
 }
+
+
 
 }
