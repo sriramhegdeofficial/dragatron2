@@ -753,7 +753,7 @@ header {
 
 .avail-session-wrapper {
   width: 100%;
-  height: 400px;
+  height: 570px;
   display: flex;
   justify-content: space-between;
 }
@@ -764,6 +764,11 @@ header {
   align-items: flex-end;
   position: relative;
   overflow: hidden;
+}
+
+.avail-session-info-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .border-right-avail-session-block {
@@ -810,15 +815,17 @@ header {
 
 .absolute-div {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 15px;
+  
+  
 }
 
 .extra-rules-for-index {
   opacity: 0.6;
   color: white;
   transform-origin: left top;
-  transform: rotateZ(-90deg) translateX(-10px);
+  transform: rotateZ(-90deg) translateX(-35px);
 
 }
 
