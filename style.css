@@ -1725,6 +1725,16 @@ footer {
     padding: 0px 20px;
 }
 
+.navbar-default {
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-link {
+  
+  font-size: 0.7rem;
+  
+}
   .main-content-wrapper {
     
     padding: 0;
