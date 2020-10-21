@@ -169,8 +169,12 @@ body {
     font-family: 'Gilroy-ExtraBold', sans-serif;
     color: white;
     position: relative;
+   
     
 }
+
+
+
 
 .sidebar-nav-link-main span {
     transform-origin: center;
@@ -186,6 +190,11 @@ body {
 .unclicked-nav-link {
     -webkit-text-stroke: 2px #ffffff;
     color: transparent;
+    transition: all 0.35s ease-in-out;
+}
+
+.unclicked-nav-link:hover {
+  color: white;
 }
 
 .secondary-wrapper {
@@ -206,7 +215,11 @@ body {
     font-family: 'Gilroy-SemiBold', sans-serif;
     color: white;
     opacity: 0.72;
-    
+    transition: all 0.35s ease-in-out;
+}
+
+.sidebar-nav-link-side:hover {
+  opacity: 1;
 }
 
 .email-link {
@@ -257,9 +270,14 @@ body {
   color: #ffffff;
   text-decoration: none;
   text-transform: capitalize;
-  
+  transition: all 0.35s ease-in-out;
   
 }
+
+.social-link:hover {
+  opacity: 1;
+}
+
 
 @media only screen and (max-width: 1100px) { 
     .sidebar {
