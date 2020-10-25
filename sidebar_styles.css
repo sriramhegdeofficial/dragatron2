@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-yellow-color: #ffc465;
+    --main-logo-color: #0c141f;
+    --start-now-bg: #20242f;
+    --location-form-color: #f8f8f8;
+    --location-input-placeholder-color: #969da7;
+    --scroll-line-color: #707070;
+    --play-button-color: #ffaa9d;
+    --training-type-name-color: #e4eef5;
+    --section-3-background: #f2f3f7;
+    --woman-stretching-bg:  #399ecb;
+    --copyrights-color: #606779;
+    font-size: 16px;
+
+
+  }
+
+  @font-face {
+    font-family: "Gilroy-Regular";
+    src: url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.eot");
+    src: url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-Regular/Gilroy-Regular.svg#Gilroy-Regular") format("svg");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  
+  @font-face {
+    font-family: "Gilroy-Light";
+    src: url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.eot");
+    src: url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-Light/Gilroy-Light.svg#Gilroy-Light") format("svg");
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "Gilroy-Heavy";
+    src: url("fonts/Gilroy/Gilroy-Heavy/Gilroy-Heavy.eot");
+    src: url("fonts/Gilroy/Gilroy-Heavy/Gilroy-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-Heavy/Gilroy-Heavy.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-Heavy/Gilroy-Heavy.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Bold";
+    src: url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.eot");
+    src: url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-Bold/Gilroy-Bold.svg#Gilroy-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.eot");
+    src: url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-Medium/Gilroy-Medium.svg#Gilroy-Medium") format("svg");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.eot");
+    src: url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-SemiBold/Gilroy-SemiBold.svg#Gilroy-SemiBold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.eot");
+    src: url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2") format("woff2"),
+    url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.woff") format("woff"),
+    url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf") format("ttf"),
+    url("fonts/Gilroy/Gilroy-ExtraBold/Gilroy-ExtraBold.svg#Gilroy-ExtraBold") format("svg");
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: "ProductSans-Regular";
+    src: url("fonts/ProductSans-Regular/ProductSans-Regular.woff2") format("woff2"),
+    url("fonts/ProductSans-Regular/ProductSans-Regular.woff2") format("ttf");
+    font-style: normal;
+    font-weight: 800;
+    font-weight: normal;
+
+  }
+
+  html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gilroy-Regular', sans-serif;
+  
+ 
+
+}
+
+.sidebar {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--start-now-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: var(--main-yellow-color);
+    font-size: 3rem;
+}
+
+.items-wrapper {
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.sidebar-nav-link-main {
+    margin-bottom: 20px;
+    font-size: 5.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    color: white;
+    position: relative;
+   
+    
+}
+
+
+
+
+.sidebar-nav-link-main span {
+    transform-origin: center;
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%) translateX(8px) rotateZ(-90deg);
+    font-size: 2.2rem;
+    
+
+}
+
+.unclicked-nav-link {
+    -webkit-text-stroke: 2px #ffffff;
+    color: transparent;
+    transition: all 0.35s ease-in-out;
+}
+
+.unclicked-nav-link:hover {
+  color: white;
+}
+
+.secondary-wrapper {
+    justify-content: space-between;
+}
+
+.sidebar-nav-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.sidebar-nav-link-side {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    color: white;
+    opacity: 0.72;
+    transition: all 0.35s ease-in-out;
+}
+
+.sidebar-nav-link-side:hover {
+  opacity: 1;
+}
+
+.email-link {
+    
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 2.375rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+ 
+}
+
+.email-link::before {
+    content: '';
+    width: 65px;
+    height: 3px;
+    background: var(--main-yellow-color);
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+}
+
+.social-link-wrapper {
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    transform-origin: center;
+    transform: rotateZ(90deg);
+    right: -145px;
+    
+}
+
+.social-link {
+    opacity: 0.8;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.35s ease-in-out;
+  
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 1100px) { 
+    .sidebar {
+        
+       
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .items-wrapper {
+        margin-bottom: 50px;
+    }
+
+   
+ 
+
+ }
+
+ @media only screen and (max-width: 720px) {
+    .sidebar-nav-link-main {
+       
+        font-size: 3.25rem;
+        margin-right: 0px;
+    }
+
+    .sidebar-nav-link-main span {
+        
+    
+       
+        font-size: 1rem;
+        
+    
+    }
+
+    .sidebar-nav-link-side {
+        
+        font-size: 1.5rem;
+        
+        
+    }
+
+    .email-link {
+        font-size: 1.6rem;
+    }
+ }
+
+ @media only screen and (max-width: 500px) {
+    .sidebar-nav-link-main {
+       
+        font-size: 1.5rem;
+      
+    }
+
+    .sidebar-nav-link-side {
+        
+        font-size: 1rem;
+        
+        
+    }
+
+    .email-link {
+        font-size: 0.8rem;
+    }
+
+    .social-link-wrapper {
+       
+        right: -165px;
+        
+    }
+
+    
+ }
