@@ -3,281 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Dragatron</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./dashboard_styles.css">
+    <title>Dashboard | Dragatron</title>
 </head>
 <body>
-    <section class="section-1">
-        <p class="dragatron-bg-text">dragatron</p>
-        <div class="scroll-wrapper">
-            <div class="scroll-line"></div>
-            <p class="scroll-text">Scroll</p>
-        </div> 
-        
-        <header role="banner">
-            <div class="logo-hamburger-menu-wrapper">
+    <div class="help-wrapper">
+        <span class="material-icons">live_help</span>
+        <p class="help-text">help</p>
+    </div>
+    <div class="dashboard-main-wrapper">
+         <div class="sidebar">
+            <div class="icon-set-1-wrapper">
+                <h2 class="logo-D">D<span>.</span></h2>
                 <div class="hamburger-menu-wrapper">
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line hamburger-line-margin custom-hamburger-line-width-1"></span>
                     <span class="hamburger-line custom-hamburger-line-width-2"></span>
                 </div>
-                <a href="" class="logo">Dragatron.</a>
             </div>
-            <nav class="navbar-default">
-                <a href="sidebar.html" class="nav-link">Register as professional</a>
-                <a href="sidebar.html" class="nav-link nav-link-mobile">Register</a>
-                <a href="" class="nav-link">Login</a>
-                <a href="" class="nav-link nav-link-mobile">Login</a>
-                <a href="" class="nav-link start-now-nav-link">Start Now</a>
-            </nav>
-        </header>
-        <div class="main-content-wrapper">
-            <div class="content-wrapper">
-                <h2 class="best-tag">The best</h2>
-                <div class="workout-tag-wrapper">
-                    <div class="line-div"></div>
-                    <h2 class="workout-tag">Workout <span>Partner</span></h2>
+            <div class="icon-set-2-wrapper">
+                <div class="icon-wrapper">
+                    <span class="material-icons dashboard-icon">dashboard</span>
                 </div>
-                <form class="location-form">
-                    <div class="location-icon-wrapper">
-                        <span class="material-icons location-icon">location_on</span>
-                    </div>
-                    <input type="text" class="location-input" placeholder="SEARCH IN YOUR AREA"/>
-                    <button class="location-button">GO</button>
-                    
-                </form>
-                <p class="location-note">Give access to your location for accurate results</p>
+                <div class="icon-wrapper">
+                    <span class="material-icons dashboard-icon">directions_run</span>
+                </div>
+                <div class="icon-wrapper">
+                    <span class="material-icons dashboard-icon">event</span>
+                </div>
+                <div class="icon-wrapper">
+                    <span class="material-icons dashboard-icon">video_library</span>
+                </div>
+                
             </div>
-           
-            <div class="content-wrapper absolute-parent">
-                 <div class="gradient-circle">
-                    
-                    
-                         <div class="play-button-shine">
-                            <div class="play-button">
-                                <span class="material-icons play-button-custom">play_arrow</span>
+            <div class="icon-set-3-wrapper">
+                <div class="icon-wrapper">
+                    <div class="toggle-button-wrapper">
+                        <div class="toggle-button"></div>
+                    </div>
+                </div>
+                <div class="icon-wrapper">
+                    <img src="./assets/noun_preferences.png"
+                srcset="./assets/noun_preferences@2x.png 2x,
+                        ./assets/noun_preferences@3x.png 3x"
+                        
+                class="dashboard-icon clear-white-background" alt="noun preferences icon" />
+                </div>
+            </div>
+        </div> 
+        <div class="sidebar-psuedo"></div>
+        <div class="dashboard-content-wrapper">
+            <div class="main-dashboard-content-wrapper">
+                <nav class="navbar navbar-main">
+                    <div class="navbar-element navbar-element-extra-width search-wrapper">
+                        <span class="material-icons">search</span>
+                        <input type="text" class="search-input" placeholder="Search Services, Trainers, Centers"/>
+                    </div>
+                    <div class="navbar-element categories-wrapper">
+                        <p class="categories-text">categories</p>
+                        <span class="material-icons dropdown-icon">keyboard_arrow_down</span>
+                        <div class="categories-dropdown">
+                            <div class="category-dropdown-list category-dropdown-list-1">
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">yoga</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">martial arts</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">kick-boxing</p>
+                                </div>
+                            </div>
+                            <div class="category-dropdown-list category-dropdown-list-2">
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">cardio</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">core</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">pilots</p>
+                                </div>
+                            </div>
+                            <div class="category-dropdown-list category-dropdown-list-3">
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">meditation</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons">self_improvement</span>
+                                    <p class="categroy-list-item-name">strength</p>
+                                </div>
+                                <div class="category-dropdown-list-item-wrapper">
+                                    <span class="material-icons list-item-selected">play_arrow</span>
+                                    <p class="categroy-list-item-name">view all</p>
+                                </div>
                             </div>
                         </div>
-                          <p class="watch-intro">Watch Intro</p>   
-                    
-                    
-                
-                </div> 
-                <img src="./assets/girl.png"
-                srcset="./assets/girl@2x.png 2x,
-                        ./assets/girl@3x.png 3x"
-                class="girl-running">
-            </div>
-        </div>
-        
-         
-    </section>
-    <section class="section-2">
-        <p class="sweat-text">sweat</p>
-        <div class="explore-more-wrapper">
-            <p class="explore-text">explore <span class="material-icons">play_arrow</span></p>
-            <p class="more-text">more</p>
-        </div>
-        <p class="types-of">Types of</p>
-        <p class="training-session">Training Sessions</p>
-        <p class="focus">focus.</p>
-        <p class="recovery">recovery</p>
-        <div class="training-types-wrapper">
-            <div class="training-type-background">
-                <p class="training-type-name">Endurance Training</p>
-                <img src="assets/endurance_training.png"
-                     srcset="assets/endurance_training@2x.png 2x,
-                            assets/endurance_training@3x.png 3x"
-                    class="training-type-img" alt="endurance training image" />
-            </div>
-            <div class="training-type-background move-down">
-                <p class="training-type-name">Kick Boxing</p>
-                <img src="assets/kick_boxing.png"
-                    srcset="assets/kick_boxing@2x.png 2x,
-                            assets/kick_boxing@3x.png 3x"
-                    class="training-type-img" alt="kick boxing training image" />
-            </div>
-            <div class="training-type-background">
-                <p class="training-type-name">MEDITATION</p>
-                <img    src="assets/meditation.png"
-                        srcset="assets/meditation@2x.png 2x,
-                                assets/meditation@3x.png 3x"
-                        class="training-type-img" alt="meditation training image" />
-            </div>
-        </div>
-        <div class="training-types-wrapper">
-            <div class="training-type-background">
-                <p class="training-type-name">Strength Training</p>
-                <img src="assets/strength_training.png"
-                     srcset="assets/strength_training@2x.png 2x,
-                            assets/strength_training@3x.png 3x"
-                    class="training-type-img" alt="strength training image" />
-            </div>
-            <div class="training-type-background move-down">
-                <p class="training-type-name">CaRdio</p>
-                <img src="assets/cardio.png"
-                     srcset="assets/cardio@2x.png 2x,
-                            assets/cardio@3x.png 3x"
-                    class="training-type-img" alt="cardio training image" />
-            </div>
-            <div class="training-type-background">
-                <p class="training-type-name">Yoga Training</p>
-                <img src="assets/yoga_training.png"
-                     srcset="assets/yoga_training@2x.png 2x,
-                            assets/yoga_training@3x.png 3x"
-                    class="training-type-img" alt="yoga training image" />
-            </div>
-        </div>
-        <div class="training-types-wrapper-mobile">
-            <div class="training-type-background">
-                <p class="training-type-name">Endurance Training</p>
-                <img src="assets/endurance_training.png"
-                     srcset="assets/endurance_training@2x.png 2x,
-                            assets/endurance_training@3x.png 3x"
-                    class="training-type-img" alt="endurance training image" />
-            </div>
-            <div class="training-type-background move-down">
-                <p class="training-type-name">Kick Boxing</p>
-                <img src="assets/kick_boxing.png"
-                    srcset="assets/kick_boxing@2x.png 2x,
-                            assets/kick_boxing@3x.png 3x"
-                    class="training-type-img" alt="kick boxing training image" />
-            </div>
-            <div class="training-type-background">
-                <p class="training-type-name">MEDITATION</p>
-                <img    src="assets/meditation.png"
-                        srcset="assets/meditation@2x.png 2x,
-                                assets/meditation@3x.png 3x"
-                        class="training-type-img" alt="meditation training image" />
-            </div>
-            <div class="training-type-background">
-                <p class="training-type-name">Strength Training</p>
-                <img src="assets/strength_training.png"
-                     srcset="assets/strength_training@2x.png 2x,
-                            assets/strength_training@3x.png 3x"
-                    class="training-type-img" alt="strength training image" />
-            </div>
-            <div class="training-type-background move-down">
-                <p class="training-type-name">CaRdio</p>
-                <img src="assets/cardio.png"
-                     srcset="assets/cardio@2x.png 2x,
-                            assets/cardio@3x.png 3x"
-                    class="training-type-img" alt="cardio training image" />
-            </div>
-            <div class="training-type-background move-down-mobile">
-                <p class="training-type-name">Yoga Training</p>
-                <img src="assets/yoga_training.png"
-                     srcset="assets/yoga_training@2x.png 2x,
-                            assets/yoga_training@3x.png 3x"
-                    class="training-type-img" alt="yoga training image" />
-            </div>
-        </div>
-    </section>
-    <section class="section-3">
-        <p class="easy-steps-text">Easy steps to</p>
-        <p class="get-started-text">Get Started</p>
-        <p class="process-text">process</p>
-        <div class="avail-session-wrapper">
-            <div class="avail-session-block border-right-avail-session-block">
-                <div class="avail-session-info-wrapper">
-                    <p class="avail-session-index">01.</p>
-                    <p class="avail-session-text">register</p>
-                </div>
-            </div>
-            <div class="avail-session-block">
-                <div class="avail-session-info-wrapper">
-                        <p class="avail-session-index">02.</p>
-                        <p class="avail-session-text">pay</p>
-                </div>
-            </div>
-            <div class="avail-session-block">
-                <img src="assets/woman_stretching.png"
-                     srcset="assets/woman_stretching@2x.png 2x,
-                             assets/woman_stretching@3x.png 3x"
-                    class="avail-session-img" />
-                <div class="absolute-div avail-session-info-wrapper">
-                        <p class="avail-session-index extra-rules-for-index">03.</p>
-                        <p class="avail-session-text extra-rules-for-text">Avail Sessions</p>
-                        <p class="start-working-out-text">Start working out and measure your results day-in day-out</p>
-                        <div class="avail-session-know-more-wrapper">
-                            <div class="avail-session-divider"></div>
-                            <p class="avail-session-know-more">Know More</p>
+                    </div>
+                </nav>
+                <div class="main-sub-dashboard-content-wrapper">
+                    <div class="user-greeting-wrapper">
+                        <div class="user-wrapper">
+                            <p class="user-greeting">Good Evening, Josh!</p>
+                            <div class="user-greeting-sub-wrapper">
+                                <p class="user-greeting-sub">Set small goals to achieve the ultimate, let's go!</p>
+                            </div>
+                            
                         </div>
+                        <div class="location-main-wrapper">
+                            <div class="location-wrapper">
+                                <img src="./assets/location.png"
+                                    srcset="./assets/location@2x.png 2x,
+                                            ./assets/location@3x.png 3x"
+                                class="location-icon" alt="location icon" />
+                                <p class="location-text">brampton, canada</p>
+                            </div>
+                            <div class="change-location-wrapper">
+                                <p class="change-location-text">change location</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-graph-wrapper">
+                        <div class="graph-wrapper-left">
+                            <div class="graph-left-common-wrapper graph-left-wrapper-margin-bottom">
+                                <div class="graph-common-box weight-box flex-big">
+                                    <div class="activity-title-wrapper">
+                                        <h3 class="activity-title">weight</h3>
+                                       <img src="./assets/awesome-weight.png"
+                                             srcset="./assets/awesome-weight@2x.png 2x,
+                                                    ./assets/awesome-weight@3x.png 3x"
+                                            class="activity-icon" alt="weight icon" />
+                                       
+                                    </div>
+                                    <div class="weight-target-text-wrapper">
+                                        <p class="weight-value"><span>120</span> LBS</p>
+                                     <div class="weight-target-wrapper">
+                                         <p class="weight-target-text">target</p>
+                                         <p class="weight-value weight-target-text extra-font-size-weight-target-value"><span>145</span> LBS</p>
+                                     </div>
+                                    </div>
+                                </div>
+                                <div class="graph-common-box heart-rate-box flex-small">
+                                    <div class="activity-title-wrapper">
+                                        <h3 class="activity-title">heart rate</h3>
+                                        <img src="./assets/Icon_ionic-ios-heart.png"
+                                             srcset="./assets/Icon_ionic-ios-heart@2x.png 2x,
+                                                    ./assets/Icon_ionic-ios-heart@3x.png 3x"
+                                            class="activity-icon" alt="heart icon" />
+                                       
+                                    </div>
+                                    <div class="heart-rate-graph-wrapper">
+                                        <img src="./assets/heart_rate_graph.png"
+                                         srcset="./assets/heart_rate_graph@2x.png 2x,
+                                                ./assets/heart_rate_graph@3x.png 3x"
+                                        class="heart-rate-graph" alt="heart rate graph" />
+                                        <p class="heart-rate-value"><span>114</span> BPM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="graph-left-common-wrapper">
+                                <div class="graph-common-box calories-box flex-small">
+                                    <div class="activity-title-wrapper">
+                                        <h3 class="activity-title">calories</h3>
+                                        <img src="./assets/Icon_awesome-fire.png"
+                                             srcset="./assets/Icon_awesome-fire@2x.png 2x,
+                                                    ./assets/Icon_awesome-fire@3x.png 3x"
+                                            class="activity-icon" alt="fire icon" />
+                                    </div>
+                                    <div class="calories-graph-wrapper">
+                                        <div class="calorie-pie-chart-wrapper">
+                                            <img src="./assets/calories_pie_chart.png"
+                                             srcset="./assets/calories_pie_chart@2x.png 2x,
+                                                    ./assets/calories_pie_chart@3x.png 3x"
+                                            class="calories-pie-chart-img" alt="calories pie chart image" />
+                                            <div class="calorie-pie-value-wrapper">
+                                                <p class="calorie-pie-value-common calorie-pie-value">2402</p>
+                                                <p class="calorie-pie-value-common calorie-pie-unit">KCAL</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="calorie-text-wrapper">
+                                            <p class="calorie-pie-value-common calorie-target-text">target</p>
+                                            <p class="calorie-pie-value-common calorie-value-text"><span>3500</span> KCAL</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="graph-common-box sleep-box flex-big">
+                                    <div class="activity-title-wrapper">
+                                        <h3 class="activity-title">sleep</h3>
+                                        <img src="./assets/Icon_ionic-ios-moon.png"
+                                        srcset="./assets/Icon_ionic-ios-moon@2x.png 2x,
+                                               ./assets/Icon_ionic-ios-moon@3x.png 3x"
+                                       class="activity-icon" alt="fire icon" />
+                                    </div>
+                                    <div class="sleep-graph-wrapper">
+                                        <p class="calorie-pie-value-common extra-sleep-duration-size sleep-duration"><span>8.5</span> hours</p>
+                                        <img src="./assets/sleep_graph.png"
+                                        srcset="./assets/sleep_graph@2x.png 2x,
+                                               ./assets/sleep_graph@3x.png 3x"
+                                       class="sleep-graph-img" alt="sleep graph image" />
+                                       <div class="sleep-metric-value-wrapper">
+                                           <p class="calorie-pie-value-common sleep-average">average <span>7</span></p>
+                                           <p class="calorie-pie-value-common sleep-score">score<span> 85</span></p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="graph-wrapper-right">
+                            <div class="activity-graph-box">
+                                <div class="activity-title-wrapper">
+                                    <h3 class="activity-title">activity</h3>
+                                    <span class="material-icons activity-icon">directions_walk</span>
+                                </div>
+                                <div class="activity-steps-wrapper">
+                                    <p class="activity-steps">1,568</p>
+                                    <p class="activity-steps-text">steps</p>
+                                </div>
+                                <img src="./assets/graph.png"
+                                        srcset="./assets/graph@2x.png 2x,
+                                                ./assets/graph@3x.png 3x"
+                                class="activity-graph-img" alt="activity graph image" />
+                                <span class="activity-time"><span class="make-bold">50</span> MIN</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-4">
-        <img src="assets/girl_in_gym.png"
-     srcset="assets/girl_in_gym@2x.png 2x,
-             assets/girl_in_gym@3x.png 3x"
-     class="girl-in-gym-img" />
-     <div class="section-4-content-wrapper">
-         <p class="what-our-text">What our</p>
-         <p class="clients-say-text">Clients say</p>
-         <p class="clients-review">Professional, fast, creative, and goal-oriented. 
-             It cannot be described in any other way: Dragatron 
-             is truly my workout partner.</p>
-        <p class="clients-name">Kristen Stewart</p>
-        <p class="clients-occupation">actor</p>
-        <div class="navigation-buttons-wrapper">
-            <button class="navigation-button prev-button"><span class="material-icons">arrow_back</span></button>
-            <button class="navigation-button next-button"><span class="material-icons">arrow_forward</span></button>
-            
-        </div>
-     </div>
-    </section>
-    <section class="section-5">
-        <div class="here-to-help-wrapper">
-            <p class="here-to-help-text">We’re here to help <span class="material-icons">play_arrow</span></p>
-            <p class="get-in-touch-text">Get in touch</p>
-        </div>
-        <img src="assets/spiral_sphere.png"
-             srcset="assets/spiral_sphere2x.png 2x,
-                     assets/spiral_sphere3x.png 3x"
-            class="spiral-sphere-img" />
-        <div class="bottom-nav-links-wrapper">
-            <div class="bottom-links-sub-wrapper">
-                <div class="footer-content-wrapper center-horizontaly">
-                    <p class="logo-D">D.</p>
+            <div class="side-dashboard-content-wrapper">
+                <nav class="navbar navbar-side">
+                    <div class="notifs-bell-wrapper">
+                        <span class="material-icons notifs-bell-icon">notifications_none</span>
+                        <span class="notifs-red-alert"></span>
+                    </div>
+                    <div class="profile-info-wrapper">
+                        <p class="profile-name">josh dolittle</p>
+                        <img src="./assets/profile_img.jpg" class="profile-img" alt="profile image" />
+                        <div class="profile-dropdown">
+                            <a href="" class="profile-dropdown-link">profiles</a>
+                            <a href="" class="profile-dropdown-link">subscriptions</a>
+                            <a href="" class="profile-dropdown-link">payments</a>
+                            <a href="" class="profile-dropdown-link">help & support</a>
+                            <div class="profile-logout-wrapper">
+                                <a href="" class="profile-dropdown-link">log out</a>
+                                <span class="material-icons">exit_to_app</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </nav>
+                <div class="calendar-img-wrapper">
+                    <img src="./assets/calendar_img.png"
+                     srcset="./assets/calendar_img@2x.png 2x,
+                            ./assets/calendar_img@3x.png 3x"
+                    class="calendar_img" alt="calendar image" />
                 </div>
-                <div class="footer-content-wrapper">
-                    <nav class="footer-links-1-wrapper">
-                        <a href="" class="footer-links-1">products</a>
-                        <a href="" class="footer-links-1">services</a>
-                        <a href="" class="footer-links-1">stories</a>
-                        <a href="" class="footer-links-1">discover</a>
-                    </nav>
+                <div class="calendar-events-wrapper">
+                    <p class="upcoming-events-title">upcoming workouts</p>
+                    <div class="individual-event-wrapper event-selected">
+                        <div class="event-name-date-wrapper">
+                            <p class="event-name">yoga training</p>
+                            <p class="event-date">11/06/2020 | 4:00 pm</p>
+                        </div>
+                        <p class="session-duration">30 min</p>
+                    </div>
+                     
+                    <div class="individual-event-wrapper">
+                        <div class="event-name-date-wrapper">
+                                <p class="event-name">Cardio Session</p>
+                                <p class="event-date">27/06/2020 | 3:00 pm</p>
+                        </div>
+                        <p class="session-duration">45 min</p>
+                    </div>
                 </div>
-        </div>
-        <div class="bottom-links-sub-wrapper">
-            <div class="footer-content-wrapper center-horizontaly">
-            <nav class="footer-links-2-wrapper">
-                <a href="" class="footer-links-2">about</a>
-                <a href="" class="footer-links-2">plans</a>
-                <a href="" class="footer-links-2">centers</a>
-                <a href="" class="footer-links-2">trainers</a>
-            </nav>
-        </div>
-        <div class="footer-content-wrapper">
-            <div class="subscribe-to-newsletter">
-                <h3 class="subscribe-to-newsletter-title">Subscribe to OUR NEWSLETTERS</h3>
-                <form class="newsletter-input-form">
-                    <input type="text" class="subscribe-input" placeholder="EMAIL ADDRESS" />
-                    <span class="material-icons">arrow_right_alt</span>
-                </form>
+                
             </div>
         </div>
-        </div>
-
-    </section>
-    <footer>
-        <p class="copyrights-text">All rights reserved Copyright Dragatron.</p>
-        <div class="social-share-wrapper">
-            <a href="" class="social-link">facebook.</a>
-            <a href="" class="social-link">instagram.</a>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
