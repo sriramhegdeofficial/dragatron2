@@ -674,7 +674,7 @@ body {
 }
 
 .activity-graph-img {
-  width: 80%;
+  max-width: 80%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -806,7 +806,7 @@ body {
 }
 .sleep-graph-img {
   height: 40%;
-  width: 80%;
+  max-width: 80%;
 }
 
 .extra-sleep-duration-size {
