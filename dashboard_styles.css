@@ -842,11 +842,11 @@ body {
   position: absolute;
   right: 2px;
   top: -2px;
-  width: 13px ;
-  height: 13px;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
   background: var(--notifs-red-color);
-  border: 3px solid white;
+  border: 0.2rem solid white;
 }
 
 .notifs-bell-icon {
