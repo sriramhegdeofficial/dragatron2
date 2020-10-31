@@ -768,6 +768,33 @@ body {
   bottom: 4.5%;
 }
 
+.help-wrapper {
+    z-index: 1000;
+    width: 144px ;
+    height: 53px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  
+  .help-wrapper span {
+    color: var(--start-now-bg);
+  }
+  
+  .help-text {
+    text-transform: uppercase;
+    color: var(--start-now-bg);
+    font-size: 1.125rem;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 600;
+  }
+
 @media only screen and (max-width: 1220px) {
     :root {
       font-size: 11px;
