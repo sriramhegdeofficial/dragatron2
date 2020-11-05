@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./dashboard6.css" />
+    <title>Welcome | Dragatron</title>
+</head>
+<body>
+    <div class="dashboard-main-wrapper">
+        <div class="sidebar">
+            <div class="logo-wrapper">
+                <a href="" class="logo">Dragatron<span>.</span></a>
+            </div>
+            <div class="icons-wrapper">
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons">dashboard</span>
+                    <span class="icon-name">Dashboard</span>
+                </div>
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons">alarm</span>
+                    <span class="icon-name">sessions</span>
+                </div>
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons">calendar_today</span>
+                    <span class="icon-name">subscriptions</span>
+                </div>
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons">groups</span>
+                    <span class="icon-name">My Trainees</span>
+                </div>
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons">credit_card</span>
+                    <span class="icon-name">payments</span>
+                </div>
+            </div>
+            
+                <div class="individual-icon-wrapper">
+                    <span class="material-icons login-icon">login</span>
+                    <span class="icon-name">log out</span>
+                </div>
+        </div> 
+        <div class="sidebar-psuedo"></div>
+        <div class="dashboard-content-wrapper">
+            <nav class="navbar navbar-main">
+                <div class="navbar-empty"></div>
+                <div class="navbar-element navbar-element-extra-width search-wrapper">
+                    <span class="material-icons">search</span>
+                    <input type="text" class="search-input" placeholder="Search Services, Trainers, Centers"/>
+                </div>
+                <div class="profile-wrapper">
+                    <div class="notifs-bell-wrapper">
+                        <span class="material-icons notifs-bell-icon">notifications_none</span>
+                        <span class="notifs-red-alert"></span>
+                    </div>
+                    <div class="profile-info-wrapper">
+                        <p class="profile-name">steve werner</p>
+                        <img src="./assets/profile_img.jpg" class="profile-img" alt="profile image" />
+                    </div>
+                </div>
+            </nav>
+            <div class="dashboard-sub-wrapper">
+                <div class="add-new-session-wrapper">
+                    <h3 class="add-new-session-title">Add new session</h3>
+                    <button class="preview-btn">preview</button>
+                </div>
+                <form class="add-new-session-form">
+                    <div class="form-sub-wrapper margin-right-30">
+                        <div class="form-element-wrapper ">
+                            <label for="title" class="form-element-title">Title</label>
+                            <div class="form-element-input-wrapper">
+                                <input type="text" id="title" name="title" class="form-element-input" placeholder="enter title"/>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title">cost</label>
+                            <div class="form-element-input-wrapper">
+                                <input type="text" id="cost" name="cost" class="form-element-input" placeholder="enter cost"/>
+                                <p class="cost-title">inr</p>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="duration" class="form-element-title">duration</label>
+                            <div class="form-element-and-duration-picker-wrapper">
+                                    <div class="form-element-input-wrapper width-100">
+                                        <input type="text" id="duration" name="duration" class="form-element-input" placeholder="duration"/>
+                                        <span class="material-icons duration-clock">access_alarm</span>
+                                    </div>
+                                    <div class="duration-picker-wrapper">
+                                        <div class="duration-picker">15 MIN</div>
+                                        <div class="duration-picker">30 MIN</div>
+                                        <div class="duration-picker">45 MIN</div>
+                                        <div class="duration-picker">60 MIN</div>
+                                        <div class="duration-picker">90 MIN</div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="session-type" class="form-element-title">session type</label>
+                            
+                        <div class="session-radio-wrapper">
+                                    
+                            <label class="session-radio">
+                                <span class="session-radio-input">
+                                  <input type="radio" name="radio">
+                                  <div class="radio-control">
+                                      <div class="radio-control-inner"></div>
+                                  </div>
+                                </span>
+                                <span class="radio-label">Online</span>
+                              </label>
+                              <label class="session-radio">
+                                <span class="session-radio-input">
+                                  <input type="radio" name="radio">
+                                  <div class="radio-control">
+                                        <div class="radio-control-inner"></div>
+                                  </div>
+                                </span>
+                                <span class="radio-label">Offline</span>
+                              </label>
+                     </div>        
+                           
+                            
+                        </div>
+                        <div class="form-element-wrapper ">
+                            <label for="title" class="form-element-title">add thumbnail</label>
+                            <div class="form-element-input-wrapper upload-session-input">
+                                <img src="./assets/upload_image.png"
+                                     srcset="./assets/upload_image@2x.png 2x,
+                                            ./assets/upload_image@3x.png 3x"
+                                     class="upload-image-icon" alt="upload image icon">
+                                <p class="upload-image-title">upload image</p>
+                                <p class="upload-image-size">Size: 400x600 Max: 200 KB</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="form-sub-wrapper margin-left-30">
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title">sub-services</label>
+                            <div class="form-element-input-wrapper">
+                                <select name="sub-services" id="sub-services" class="form-sub-services">
+                                    <option value="service-1">Services-1</option>
+                                    <option value="service-2">Services-2</option>
+                                    <option value="service-3">Services-3</option>
+                                    <option value="service-4">Services-4</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title">slots</label>
+                            <div class="form-element-input-wrapper clear-all">
+                                <div class="form-element-input-wrapper width-25">
+                                    <p class="session-timing-title">start</p>
+                                    <span class="material-icons duration-clock">access_alarm</span>
+                                </div>
+                                <div class="form-element-input-wrapper width-25">
+                                    <p class="session-timing-title">stop</p>
+                                    <span class="material-icons duration-clock">access_alarm</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title">days</label>
+                            <div class="form-element-input-wrapper">
+                                <select name="sub-services" id="sub-services" class="form-sub-services">
+                                    <option value="service-1">Monday</option>
+                                    <option value="service-2">Tuesday</option>
+                                    <option value="service-3">Friday</option>
+                                    <option value="service-4">Sunday</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title">description</label>
+                            <div class="form-element-input-wrapper height-auto ">
+                                <textarea class="description-box" placeholder="Brief description(min 200 words)" cols="30" rows="5"></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label for="cost" class="form-element-title"></label>
+                            <div class="form-element-input-wrapper clear-all">
+                                <button class="action-btn">clear all</button>
+                                <button class="action-btn submit-btn">submit</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </form>
+                       
+                   
+        </div>
+    </div>
+</body>
+</html>
