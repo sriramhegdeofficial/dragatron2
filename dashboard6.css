@@ -744,4 +744,12 @@ body {
     .form-sub-wrapper {
       width: 90%;
     }
+
+    .margin-right-30 {
+      margin-right: 0px;
+    }
+
+    .margin-left-30 {
+      margin-left: 0px;
+    }
 }
