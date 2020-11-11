@@ -901,8 +901,9 @@ body {
   
 }
 
-.profile-logout-wrapper span {
+.profile-logout-wrapper .material-icons {
   font-size: 1.52rem;
+  margin-left: 10px;
 }
 .profile-img {
   width: 50px;
