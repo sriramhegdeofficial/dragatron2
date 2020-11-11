@@ -244,6 +244,14 @@ body {
     transform: rotateZ(-180deg);
 }
 
+.icon-selected {
+  background: rgba(255,255,255,0.05);
+}
+
+.icon-selected .material-icons {
+  color: var(--main-yellow-color);
+}
+
 .dashboard-content-wrapper {
     flex: 1 1 auto;
     

@@ -247,6 +247,14 @@ body {
     font-weight: 600;
 }
 
+.icon-selected {
+  background: rgba(255,255,255,0.05);
+}
+
+.icon-selected .material-icons {
+  color: var(--main-yellow-color);
+}
+
 .login-icon {
     transform-origin: center;
     transform: rotateZ(-180deg);
