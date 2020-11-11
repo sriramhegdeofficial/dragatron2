@@ -219,9 +219,19 @@ body {
     background: rgba(255,255,255,0.05);
 }
 
+
+
 .individual-icon-wrapper:hover .material-icons {
     color: var(--main-yellow-color);
     
+}
+
+.icon-selected {
+    background: rgba(255,255,255,0.05);
+}
+
+.icon-selected .material-icons {
+    color: var(--main-yellow-color);
 }
 
 
