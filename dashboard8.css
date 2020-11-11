@@ -539,8 +539,13 @@ body {
     
 }
 
+.table-content-align-left {
+  text-align: left;
+}
+
 .session-table-action {
-    text-align: right;
+    text-align: left;
+    width: 7%;
     
     
 }
@@ -549,13 +554,15 @@ body {
     display: flex;
   
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
-
+.extra-width-column {
+  width: 14%;
+}
 
 .action-link {
-    margin-left: 20px;
+    
     text-decoration: none;
     border-bottom: solid 3px rgba(112, 112, 112, 0.22);
     text-transform: uppercase;
