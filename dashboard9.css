@@ -498,6 +498,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 70px;
     margin: 8px 0px;
     background: white;
@@ -513,8 +514,9 @@ body {
     letter-spacing: normal;
     color: rgba(32, 36, 47, 0.6);
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     width: 25%;
+    
 }
 
 .session-table-title-wrapper {
@@ -536,14 +538,13 @@ body {
 
 
 .session-table-action {
-    
-    text-align: right;
+   
     
 }
 
 .session-table-service-type {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 } 
 
@@ -567,18 +568,28 @@ body {
     font-weight: 400;
     font-size: 1.25rem;
 }
+
+.custom-action-width {
+  width: 15%;
+}
 .action-wrapper {
+    
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     
+}
+
+.table-content-align-left {
+  text-align: left;
 }
 
 
 
+
 .action-link {
-    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
     border-bottom: solid 3px rgba(112, 112, 112, 0.22);
     text-transform: uppercase;
