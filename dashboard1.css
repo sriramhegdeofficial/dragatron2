@@ -335,7 +335,8 @@ body {
   background: rgba(0,0,0,0.04);
 }
 
-.search-wrapper span {
+.search-wrapper .material-icons {
+  font-size: 2.375rem;
   font-weight: 900;
   color: var(--start-now-bg);
 }
@@ -367,6 +368,10 @@ body {
   justify-content: space-around;
   position: relative;
   transition: all 0.1s ease-in-out;
+}
+
+.categories-wrapper .material-icons {
+  font-size: 2.375rem;
 }
 
 .categories-wrapper:hover {
@@ -404,6 +409,8 @@ body {
   display: none;
   
 }
+
+
 
 .category-dropdown-list {
   display: flex;
@@ -851,7 +858,7 @@ body {
 }
 
 .notifs-bell-icon {
-  font-size: 1.8rem;
+  font-size: 2.375rem;
 }
 
 .profile-info-wrapper {
