@@ -999,8 +999,8 @@ body {
   height: 53px;
   border-radius: 50px;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 25px;
+  right: 25px;
   background: #F2F2F2;
   display: flex;
   justify-content: space-around;
