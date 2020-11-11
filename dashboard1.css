@@ -1032,10 +1032,10 @@ body {
 }
 
 
-@media only screen and (max-width: 1620px) { 
-  :root {
-    font-size: 11px;
-  }
+@media only screen and (max-width: 1820px) { 
+
+
+ 
 
   .side-dashboard-content-wrapper {
     width: 325px;
@@ -1078,8 +1078,49 @@ body {
 
 }
 
+@media only screen and (max-width: 1620px) { 
+
+  :root {
+    font-size: 11px;
+  }
+
+  .search-input {
+   
+    font-size: 1.4rem;
+ 
+  }
+  
+  
+  
+  
+  .search-input::placeholder {
+    font-size: 1.4rem;
+    
+  }
+}
+
+@media only screen and (max-width: 1250px) { 
+
+.search-input {
+  margin-left: 25px;
+  flex: 1 1 auto;
+  font-size: 1.02rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-weight: 600;
+}
 
 
+
+
+.search-input::placeholder {
+  font-size: 1.02rem;
+  color: rgba(0,0,0,0.2);
+}
+
+}
 @media only screen and (max-width: 1150px) { 
   :root {
     font-size: 9px;
