@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./signup2.css">
+    <title>Welcome | dragatron</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content-wrapper custom-main-background parent-absolute custom-layout-main-content-wrapper">
+        <header>
+            <div class="logo-wrapper">
+                <img class="arrow-logo" src="./assets/arrow.png" alt="arrow image" />
+                <img class="logo" src="./assets/logo.png" alt="logo of the website" />
+            </div>
+            
+        </header>
+        <div class="signup-wrapper">
+            <div class="signup-login-wrapper">
+                <h2 class="signup-text">signup</h2>
+                <h2 class="login-text">log&nbsp;in</h2>
+            </div>
+            <form  class="auth-form">
+                <p class="enter-phone-no">enter phone no.</p>
+                <div class="input-wrapper">
+                    
+                    <div class="single-input-wrapper quarter-input-size extra-padding mobile-code-min-width">
+                        <select name="mobile-code" class="mobile-code">
+                            <option value="91">+91</option>
+                            <option value="amereica">+1</option>
+                            <option value="russia">+7</option>
+                            <option value="Britain">+44</option>
+                          </select>
+                    </div>
+                    <div class="single-input-wrapper flex-grow-input custom-style-color-phone">
+                        <input class="input-field" type="tel" id="phone" name="phone" placeholder="123-456-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+                    </div>
+                    <div class="arrow-button">
+                        <span class="material-icons">trending_flat</span>
+                    </div>
+                </div>
+                <div class="otp-result-text">OTP has been sent to your mobile</div>
+
+                <div class="full-input-wrapper">
+                    <p class="enter-six-digit-otp-text">Enter 6-Digit OTP</p>
+                    <div class="otp-input-wrapper">
+                        <div class="single-input-wrapper custom-style-otp-box success-border">
+                            <input value="342217" class="input-field inner-input-size-3 custom-style-for-otp-enter" type="text" id="otp-type" name="otp-type" />
+                            <img src="assets/green_check_circle.png"
+                                 srcset="assets/green_check_circle@2x.png 2x,
+                                        assets/green_check_circle@3x.png 3x"
+                                class="green-check-circle" alt="green check circle icon">
+                        </div>
+                        <p class="didnt-receive-otp-text">Didn't receive otp? <span>resend</span></p>
+                    </div>
+                </div>
+                <button class="finish-signup">continue</button>
+              
+            </form>
+        </div>
+    </div>
+    <div class="main-content-wrapper absolute-positioning-parent custom-z-index toggle-display">
+        <button class="register-as-professional">Register as Professional</button>
+        <img src="assets/man_exercising.png"
+             srcset="assets/man_exercising@2x.png 2x,
+                    assets/man_exercising@3x.png 3x"
+            class="man-exercising-img" alt="man exercsing image" />
+
+            <h4 class="get-started-text">get started!</h4>
+            <h4 class="signup-its-free">sign up, it's free</h4>
+            <h4 class="workout-text">workout</h4>
+            <div class="get-text-wrapper">
+                <div class="get-line"></div>
+                <h4 class="get-text">get</h4>
+            </div>
+            <h4 class="set-text">set</h4>
+    </div> 
+    </div>
+    
+    
+</body>
+</html>
