@@ -247,6 +247,7 @@ header {
     font-style: normal;
     letter-spacing: normal;
     color: var(--section-3-background);
+    cursor: pointer;
 }
 
 .login-text {
@@ -260,6 +261,7 @@ header {
     font-style: normal;
     letter-spacing: normal;
     color: transparent;
+    cursor: pointer;
 }
 
 .input-wrapper {
