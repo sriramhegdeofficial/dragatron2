@@ -283,7 +283,7 @@ header {
 
 
 .check-cirlce-small {
-    margin-right: 18px;
+    
    
     
 }
@@ -382,8 +382,8 @@ div.error-message:before {
     display: none;
 }
 
-.custom-size-style {
-    width: 60%;
+.custom-size-style-for-mobile-input {
+    width: 53%;
     font-family: 'Gilroy-Bold', sans-serif;
     font-weight: bold;
     color: white;
@@ -406,6 +406,9 @@ div.error-message:before {
     align-items: center;
     justify-content: flex-start;
     transform: translateX(-15%);
+   
+    width: 70%;
+    margin-left: 28px;
 }
 
 .edit-text {
