@@ -37,7 +37,6 @@
     --confirmed-text-color: #a8afc1;
     --error-indicator-color: #fd6346;
     --register-as-professional-btn-color: #d7d8db;
-    --success-green-color: #31d6b0;
     font-size: 16px;
 
 
@@ -210,6 +209,7 @@ header {
 .auth-form {
     margin-top: 20px;
     height: 410px;
+    max-width: 700px;
 }
 
 .custom-main-background {
@@ -224,6 +224,7 @@ header {
 
     display: flex;
     flex-direction: column;
+   
     width: 74%;
     min-height: 70vh;
     
@@ -239,18 +240,9 @@ header {
 }
 
 .signup-text {
-    text-transform: uppercase;
-    font-family: 'Gilroy-SemiBold', sans-serif;
-    font-size: 4rem;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: var(--section-3-background);
-    cursor: pointer;
-}
+   
 
-.login-text {
+
     text-transform: uppercase;
     opacity: 0.57;
     -webkit-text-stroke: 2px var(--main-content-wrapper-login-bg);
@@ -261,6 +253,18 @@ header {
     font-style: normal;
     letter-spacing: normal;
     color: transparent;
+    cursor: pointer;
+}
+
+.login-text {
+    text-transform: uppercase;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--section-3-background);
     cursor: pointer;
 }
 
@@ -301,6 +305,10 @@ header {
 
 .error-border {
     border-bottom: 2px solid var(--error-indicator-color);
+}
+
+.input-typing-border {
+    border-bottom: 2px solid var(--main-yellow-color)
 }
 
 .indicator-wrapper {
@@ -434,13 +442,13 @@ div.error-message:before {
     color:  rgba(255, 255, 255, 0.3);
 }
 
-.finish-signup {
+.login-post-button {
     border: none;
     outline: none;
     text-transform: uppercase;
     background: var(--main-yellow-color);
     color: var(--start-now-bg);
-    padding: 15px 35px;
+    padding: 15px 55px;
     font-family: 'Gilroy-ExtraBold', sans-serif;
     font-size: 1rem;
     font-weight: 800;
@@ -448,7 +456,7 @@ div.error-message:before {
     font-style: normal;
     letter-spacing: normal;
     display: block;
-    margin-bottom: 30px;
+    
     cursor: pointer;
 }
 
@@ -465,6 +473,48 @@ div.error-message:before {
     font-weight: 600;
     position: relative;
     cursor: pointer;
+}
+
+.custom-style-login-buttons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.forgot-password-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: var(--main-yellow-color);
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.or-text-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.or-line {
+    width: 45%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.or-text {
+    text-transform: uppercase;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
 }
 
 .google-icon {
@@ -494,12 +544,12 @@ div.error-message:before {
     border: none;
 }
 
-.man-exercising-img {
-    width: 50%;
+.woman-stretching-knees-img {
+    width: 65%;
     object-fit: cover;
     position: absolute;
     left: 50%;
-    top: 59%;
+    top: 70%;
     transform: translate(-50%, -50%);
 }
 
@@ -529,6 +579,7 @@ div.error-message:before {
     position: absolute;
     left: 8%;
     top: 22%;
+    width: 450px;
 }
 
 .workout-text {
@@ -592,128 +643,6 @@ div.error-message:before {
     right: 15%;
     top: 45%;
     z-index: -5;
-}
-
-.quarter-input-size {
-    width: 50px;
-    margin-right: 20px;
-}
-
-.extra-padding {
-    padding: 0px 4px;
-}
-
-.mobile-code {
-    background: var(--input-bg);
-    border: none;
-    width: 100%;
-    color: var(--signup-professional);
-    font-family: 'Gilroy', sans-serif;
-}
-
-.mobile-code-min-width {
-    min-width: 60px;
-}
-
-.flex-grow-input {
-    flex: 1 1 auto;
-}
-
-.arrow-button {
-    height: 40px;
-    background: var(--main-yellow-color);
-    padding: 0px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 20px;
-}
-
-.custom-style-color-phone {
-    border-bottom: 2px solid var(--main-yellow-color);
-}
-
-.enter-phone-no {
-    margin-bottom: 15px;
-    color: var(--main-yellow-color);
-    text-transform: uppercase;
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    
-}
-
-.otp-result-text {
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: var(--email-verif-description-color);
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(216, 219, 230, 0.21);
-    margin-bottom: 30px;
-}
-
-.full-input-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-
-.enter-six-digit-otp-text {
-    text-transform: uppercase;
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: var(--main-yellow-color);
-    margin-bottom: 25px;
-}
-
-.otp-input-wrapper {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.custom-style-otp-box {
-    width: 55%;
-    max-width: 180px;
-
-}
-
-.success-border {
-    border-bottom: 2px solid var(--success-green-color);
-}
-
-.didnt-receive-otp-text {
-    text-transform: uppercase;
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: white;
-}
-
-.didnt-receive-otp-text span {
-    color: var(--main-yellow-color);
-    cursor: pointer;
-}
-
-.custom-style-for-otp-enter {
-    letter-spacing: 9px;
-    
 }
 
 @media only screen and (max-width: 1250px) {
