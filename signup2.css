@@ -224,11 +224,13 @@ header {
 
     display: flex;
     flex-direction: column;
+   
     width: 74%;
     min-height: 70vh;
     
     margin-top: 30px;
-    max-width: 700px;
+    max-width: 400px;
+    align-items: center;
 }
 
 .signup-login-wrapper {
@@ -241,7 +243,7 @@ header {
 .signup-text {
     text-transform: uppercase;
     font-family: 'Gilroy-SemiBold', sans-serif;
-    font-size: 4rem;
+    font-size: 2.7rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -255,7 +257,7 @@ header {
     opacity: 0.57;
     -webkit-text-stroke: 2px var(--main-content-wrapper-login-bg);
     font-family: 'Gilroy-SemiBold', sans-serif;
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -478,8 +480,8 @@ div.error-message:before {
 
 .register-as-professional {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 45px;
+    top: 25px;
     outline: none;
     background: var(--start-now-bg);
     font-family: 'Gilroy-Bold', sans-serif;
@@ -648,7 +650,7 @@ div.error-message:before {
 
 .otp-result-text {
     font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.125rem;
+    font-size: 0.85rem;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -698,7 +700,7 @@ div.error-message:before {
 .didnt-receive-otp-text {
     text-transform: uppercase;
     font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
