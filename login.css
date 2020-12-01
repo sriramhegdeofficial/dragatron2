@@ -207,9 +207,10 @@ header {
 }
 
 .auth-form {
-    margin-top: 20px;
+    margin-top: 35px;
     height: 410px;
-    max-width: 700px;
+    width: 100%;
+    
 }
 
 .custom-main-background {
@@ -229,7 +230,9 @@ header {
     min-height: 70vh;
     
     margin-top: 30px;
-    max-width: 700px;
+    max-width: 400px;
+    align-items: center;
+   
 }
 
 .signup-login-wrapper {
@@ -247,7 +250,7 @@ header {
     opacity: 0.57;
     -webkit-text-stroke: 2px var(--main-content-wrapper-login-bg);
     font-family: 'Gilroy-SemiBold', sans-serif;
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -259,7 +262,7 @@ header {
 .login-text {
     text-transform: uppercase;
     font-family: 'Gilroy-SemiBold', sans-serif;
-    font-size: 4rem;
+    font-size: 2.7rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -480,7 +483,8 @@ div.error-message:before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 35px;
+    margin: 55px 0px 35px 0px;
+    
 }
 
 .forgot-password-button {
@@ -528,8 +532,8 @@ div.error-message:before {
 
 .register-as-professional {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 45px;
+    top: 25px;
     outline: none;
     background: var(--start-now-bg);
     font-family: 'Gilroy-Bold', sans-serif;
