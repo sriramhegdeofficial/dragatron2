@@ -211,6 +211,7 @@ header {
 .auth-form {
     margin-top: 20px;
     height: 410px;
+    width: 100%;
 }
 
 .custom-main-background {
