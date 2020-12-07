@@ -231,7 +231,7 @@ header {
     
     
     margin-top: 30px;
-    max-width: 400px;
+    max-width: 440px;
     align-items: center;
     position: absolute;
     left: 50%;
@@ -724,6 +724,10 @@ div.error-message:before {
     
 }
 
+.custom-ipad-style-for-register-as-professional-btn {
+    display: none;
+}
+
 @media only screen and (max-width: 1250px) {
 
     :root {
@@ -740,15 +744,7 @@ div.error-message:before {
         right: -60px;
     }
 
-    .signup-text {
-        font-size: 5.4rem;
-       
-    }
-    
-    .login-text {
-        font-size: 4.5rem;
-        
-    }
+   
 
 }  
 
@@ -759,13 +755,35 @@ div.error-message:before {
     }
 
     .signup-wrapper { 
-        width: 60%;
+        max-width: 535px;
 
     } 
 
     .toggle-display {
         display: none;
     }
+
+    .custom-ipad-style-for-register-as-professional-btn {
+        display: inline-block;
+        color: var(--input-bg);
+        background: var(--professional);
+        padding-left:  4px;
+        padding-right: 4px;
+        text-transform: uppercase;
+        font-family: 'Gilroy-ExtraBold', sans-serif;
+        font-weight: 800;
+    }
+
+    .signup-text {
+        font-size: 5.4rem;
+       
+    }
+    
+    .login-text {
+        font-size: 4.5rem;
+        
+    }
+
 }
 
  
@@ -788,5 +806,15 @@ div.error-message:before {
 
     .logo-wrapper {
         transform: translateY(-10px);
+    }
+
+    .signup-text {
+        font-size: 4rem;
+       
+    }
+    
+    .login-text {
+        font-size: 3.3rem;
+        
     }
 }
